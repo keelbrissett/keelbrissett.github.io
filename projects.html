@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header" data-aos="fade-down">
+    <div class="container">
+      <h1>Keel Brissett</h1>
+      <p>Williams College</p>
+    </div>
+  </header>
+
+  <nav class="site-nav" data-aos="fade-down" data-aos-delay="100">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="projects-row-one" class="project-section">
+      <h2 style="font-size: 30px;" data-aos="fade-up">Design Sprints</h2>
+      <div class="grid">
+        <div class="card" data-aos="zoom-in-up">
+          <img src="images/yuka.webp" alt="DS1-image" class="card-img">
+          <h3>DS1: Need Finding</h3>
+          <p style="color:black; font-size: 15px;">In this assignment I planned and executed a round of needfinding to 
+              explore a technology of my choice related to personal health. I then created a Medium blog 
+              post to present my interview plan, data gathered from my interviews, and key insights obtained 
+              from the needfinding process.</p>
+          <a href="https://medium.com/@kmb9/yuka-revolutionizing-food-42bc5237f1ee" target="_blank"> Medium Post →</a>
+        </div>
+
+        <div class="card" data-aos="zoom-in-up">
+          <img src="images/study-abroad.webp" alt="DS2-image" class="card-img">
+          <h3>DS2: Designing for Others</h3>
+          <p style="color:black; font-size: 15px;">In this assignment we redesigned the Williams College Study Abroad website 
+              to cater to the needs of International Students at the college. This user-group was known only by our team, and we 
+              presented our proposal to the class. We then created a Medium Blog detailing our work </p>
+          <a href="https://medium.com/@lyy1_88169/redesigning-the-williams-college-study-abroad-website-for-international-students-d03ca643dc09" target="_blank"> Medium Post →</a>
+        </div>
+
+        <div class="card" data-aos="zoom-in-up">
+          <img src="images/pacman.webp" alt="DS3-image" class="card-img">
+          <h3>DS3: Designing for Interactivity</h3>
+          <p style="color:black; font-size: 15px;">The goal of this design sprint was to practice selecting the right interaction 
+            mechanisms, namely gesture inputs. For this design sprint, each team chose an existing 
+            game or application on the web and then remapped the controls from keyboard/mouse to gesture inputs using the MediaPipe 
+            Gesture Recognizer library. </p>
+          <a href="https://medium.com/@ksh2/reimagine-your-game-unlocking-the-potential-of-custom-control-mapping-765d4189582d" target="_blank"> Medium Post →</a>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <section id="projects-row-two" class="project-section">
+
+      <div class="grid">
+        <div class="card" data-aos="zoom-in-up">
+          <img src="images/harry-potter.webp" alt="DS4-image" class="card-img">
+          <h3>DS4: Designing for Effectiveness</h3>
+          <p style="color:black; font-size: 15px;"> In this design sprint, we practiced our web development skills and learned 
+            how to plan and run an evaluation to test the usability of a piece of software. Specifically, we redesigned a basic 
+            bookstore catalog website using the Bootstrap UI. </p>
+          <a href="https://global-starburst-153.notion.site/A-Library-For-All-1d2d340257fe803c98bcf8f10cde0b2e" target="_blank"> Medium Post →</a>
+        </div>
+
+        <div class="card" data-aos="zoom-in-up">
+          <img src="images/youtube.webp" alt="DS5-image" class="card-img">
+          <h3>DS5: Accessibility Audits</h3>
+          <p style="color:black; font-size: 15px;"> In this assignment, I practiced thinking about design from an accessibility 
+            standpoint, finding trustworthy sources for how to improve accessibility, and translating accessibility requirements 
+            into practical changes to an interface. </p>
+          <a href="https://medium.com/@kmb9/auditory-disabilities-and-youtube-usability-897e1b855103" target="_blank"> Medium Post →</a>
+        </div>
+
+        <div class="card" data-aos="zoom-in-up">
+          <img src="images/extension.webp" alt="DS6-image" class="card-img">
+          <h3>DS6: Design in Practice</h3>
+          <p style="color:black; font-size: 15px;"> For this design sprint of the semester, our team will created a browser extension 
+            to encourage responsible behavior, enable positive interactions, and improve user experience online (defined broadly). </p>
+          <a href="https://faceted-bonnet-e54.notion.site/EphWrite-1f374075ea7f80919e49c0e401a756bd" target="_blank"> Notion Post →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>

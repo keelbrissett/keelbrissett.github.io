@@ -35,7 +35,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    background: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
     z-index: -1; /* Ensure it's behind all content */
   }
   
@@ -47,7 +47,7 @@
   }
   
   .site-header {
-    background: #FFFFFF; /* Example: Deep indigo */
+    background: linear-gradient(to bottom, #e7e7e7, #FFFFFF);
     color: #000000;
     padding: 3rem 1rem;
     text-align: center;
@@ -57,13 +57,14 @@
   }
   
   
+  
   .site-header h1 {
     font-size: 2.7rem;
     margin-bottom: 0.5rem;
   }
   
   .site-nav {
-    background: #f2f2f2;
+    background: #FFFFFF;
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
@@ -79,7 +80,7 @@
   
   .site-nav a {
     text-decoration: none;
-    color: var(--purple);
+    color: #000000;
     font-weight: 600;
     position: relative;
   }
@@ -123,6 +124,14 @@
     padding: 1.5rem;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     will-change: transform;
+  }
+
+  .card-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
   }
   
   .card:hover {
